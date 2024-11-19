@@ -2,6 +2,9 @@
   "name": "retry-on-ci",
   "version": "0.1.0",
   "description": "Retries a command but only in CI",
+  "bin": {
+    "retry-on-ci": "dist/index.js"
+  },
   "scripts": {
     "prepublishOnly": "npm run build",
     "lint": "npx eslint .",
