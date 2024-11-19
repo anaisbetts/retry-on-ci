@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { delay, lastValueFrom, of, share, timeout } from "rxjs";
 import { spawn } from "spawn-rx";
 import * as Debug from "debug";
